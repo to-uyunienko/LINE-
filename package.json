@@ -1,0 +1,11 @@
+{
+  "name": "line-group-slack-notifier",
+  "private": true,
+  "description": "LINEグループの @yuma 宛メッセージの Slack 通知と、毎朝の要約（Google Apps Script）",
+  "scripts": {
+    "test": "node --test test/code.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
