@@ -1,5 +1,9 @@
 # LINEグループ → Slack 通知
 
+> **この Apps Script 版は、公式LINE のスタッフボット（domitori リポジトリの `linebot/`、Cloud Run）に統合されました。**
+> グループの通知と朝の要約はスタッフボットが行うので、こちらはデプロイしないでください
+> （Webhook URL は1チャネルに1つだけです）。設定は domitori の `docs/linebot.md` を参照してください。
+
 事業用 LINE グループに入っている公式LINE（Messaging API）を使って、次の2つを行うしくみです。
 
 1. **@yuma 宛のメッセージを、届いた瞬間に Slack の自分宛 DM に通知**
